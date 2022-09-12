@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
           'mock_camera_info = mock_camera_tools.mock_camera_info:main',
+          'publish_image_from_url = mock_camera_tools.publish_image_from_url:main',
         ],
     },
 )
